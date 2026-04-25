@@ -43,3 +43,7 @@ print(squares)
 numbers = [1,2,3,4,5,6,7,8]
 odd_numbers = list(filter(lambda x: x % 2 != 0, numbers))
 print(odd_numbers)
+
+numbers = [2,3,4,5]
+even_num = list(filter(lambda x: x%2 == 0, numbers))
+print(even_num)
